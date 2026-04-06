@@ -1,0 +1,53 @@
+name: fast_location
+description: "FastLocation - Consulta de CEP e Endereços para FastDelivery."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP client
+  dio: ^5.8.0+1
+
+  # State management (MobX)
+  flutter_mobx: ^2.2.1+1
+  mobx: ^2.4.0
+
+  # Local storage (Hive)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Path utilities
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  path_provider_android: ^2.2.17
+  path_provider_ios: ^2.0.11
+
+  # Maps integration
+  map_launcher: ^3.4.0
+
+  # Geocoding
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # MobX code generation
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.15
+
+  # Hive code generation
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
